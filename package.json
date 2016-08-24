@@ -4,7 +4,7 @@
   "description": "Trigger function when clicking outside a component for Vue.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo lol",
     "prepublish": "npm run build",
     "build": "bubleup src/index.js -o index.js",
     "build:example": "vbuild example -t onclick-outside",
