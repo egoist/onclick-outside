@@ -8,7 +8,8 @@
     "prepublish": "npm run build",
     "build": "bubleup src/index.js -o -index.js",
     "build:example": "vbuild example",
-    "gh": "gh-pages -d dist"
+    "dev": "vbuild example -d",
+    "gh": "npm run build:example && gh-pages -d dist"
   },
   "keywords": [
     "vue",
