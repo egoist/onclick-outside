@@ -1,6 +1,8 @@
 # onclick-outside
 
-Trigger function when clicking outside a component for Vue.js
+> Trigger function when clicking outside a component for Vue.js
+
+Vue 2.0 compatible, see demo: https://egoistian.com/onclick-outside
 
 ## Install
 
