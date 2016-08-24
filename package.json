@@ -1,0 +1,23 @@
+{
+  "name": "vue-onclick-outside",
+  "version": "0.0.0",
+  "description": "Trigger function when clicking outside a component for Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "build": "bubleup src/index.js -o -index.js",
+    "build:example": "vbuild example",
+    "gh": "gh-pages -d dist"
+  },
+  "keywords": [
+    "vue",
+    "click-outside"
+  ],
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com"
+  },
+  "license": "MIT",
+  "repository": "egoist/vue-onclick-outside"
+}
