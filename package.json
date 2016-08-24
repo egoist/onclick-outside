@@ -1,6 +1,6 @@
 {
   "name": "vue-onclick-outside",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Trigger function when clicking outside a component for Vue.js",
   "main": "index.js",
   "scripts": {
