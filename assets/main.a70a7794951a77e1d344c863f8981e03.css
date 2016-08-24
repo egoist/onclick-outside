@@ -1,0 +1,34 @@
+
+body {
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont,
+                  'avenir next', avenir,
+                  helvetica, 'helvetica neue',
+                  Ubuntu,
+                  'segoe ui', arial,
+                  sans-serif;
+}
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 300px;
+  max-width: 600px;
+  margin: 100px auto;
+  border: 3px solid #ccc;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/*# sourceMappingURL=main.a70a7794951a77e1d344c863f8981e03.css.map*/
