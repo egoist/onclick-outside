@@ -18,6 +18,9 @@
     "name": "EGOIST",
     "email": "0x142857@gmail.com"
   },
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "repository": "egoist/vue-onclick-outside"
 }
