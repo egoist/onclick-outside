@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
-    "build": "bubleup src/index.js -o -index.js",
-    "build:example": "vbuild example",
+    "build": "bubleup src/index.js -o index.js",
+    "build:example": "vbuild example -t onclick-outside",
     "dev": "vbuild example -d",
     "gh": "npm run build:example && gh-pages -d dist"
   },
