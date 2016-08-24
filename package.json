@@ -1,5 +1,5 @@
 {
-  "name": "vue-onclick-outside",
+  "name": "onclick-outside",
   "version": "0.1.0",
   "description": "Trigger function when clicking outside a component for Vue.js",
   "main": "index.js",
@@ -23,5 +23,5 @@
     "index.js"
   ],
   "license": "MIT",
-  "repository": "egoist/vue-onclick-outside"
+  "repository": "egoist/onclick-outside"
 }
