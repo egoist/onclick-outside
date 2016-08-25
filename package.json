@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo lol",
     "prepublish": "npm run build",
-    "build": "bubleup src/index.js -o index.js",
+    "build": "bubleup src/index.js -o index.js --format umd --module-name OnclickOutside",
     "build:example": "vbuild example -t onclick-outside",
     "dev": "vbuild example -d",
     "gh": "npm run build:example && gh-pages -d dist"
