@@ -20,7 +20,7 @@
     "email": "0x142857@gmail.com"
   },
   "files": [
-    "index.js"
+    "dist"
   ],
   "license": "MIT",
   "repository": "egoist/onclick-outside",
