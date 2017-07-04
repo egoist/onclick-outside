@@ -4,13 +4,23 @@ export default {
     handler: {
       type: Function,
       required: true
+    },
+    touch: {
+      type: Boolean,
+      default: true
     }
   },
   mounted() {
     document.addEventListener('click', this.handleClickOutside, true)
+    if (this.touch) {
+      document.addEventListener('touchstart', this.handleClickOutside, true)
+    }
   },
   beforeDestroy() {
     document.removeEventListener('click', this.handleClickOutside, true)
+    if (this.touch) {
+      document.removeEventListener('touchstart', this.handleClickOutside, true)
+    }
   },
   methods: {
     handleClickOutside(e) {
