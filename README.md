@@ -35,6 +35,12 @@ $ npm install --save onclick-outside
 </script>
 ```
 
+## FAQ
+
+### Not work on iOS, etc?
+
+See https://github.com/kentor/react-click-outside#not-working-on-ios
+
 ## License
 
 MIT &copy; [EGOIST](https://github.com/egoist)
